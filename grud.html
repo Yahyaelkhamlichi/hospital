@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grud.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    
+    <div class="cruds">
+        
+        <div class="head">
+            <h1>welcome</h1>
+            <p>Write your message here</p>
+            <!-- <button id="drak" >dark</button> -->
+            
+        </div>
+    
+    
+        <div class="inp">
+            <input type="text" placeholder="name" id="title" >
+            <div class="inpts">
+        <input onkeyup="gettotale()" type="number" id="price" placeholder="your weight">
+                <input onkeyup="gettotale()" type="number" id="taxes" placeholder="your height">
+                <input  onkeyup="gettotale()"  type="number" id="ads" placeholder="Appointment timing">
+                <input   onkeyup="gettotale()"  type="number" id="discount" placeholder="">
+    <small id="totale"></small>
+    
+            </div>
+            <input type="number" id="count" placeholder="count" >
+            <input type="text" id="category" placeholder="What is your illness" >
+            <button id="great">send</button>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="outp">
+            <input type="text"   onkeyup=" sechdata(this.value)"  id="search" placeholder="search">
+            <div class="btn">
+                <button onclick="serchmode(this.id)"id="serchbytitle" >search by title</button>
+                <button onclick="serchmode(this.id)"   id="serchbycategory">search by category</button>
+            
+              
+        </div>
+            <button id="delett"  onclick="deletall()">delet all()</button>
+            <table >
+                <tr id="tr">
+                    <th>id</th>
+                    <th>name</th>
+                    <th> weight</th>
+                    <th>height</th>
+                    <th>Appointment</th>
+                    <th>illness</th>
+                    <!-- <th>illness</th> -->
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="tbody">
+                   
+                    
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+<div class="imag" id="imag">
+    <img src="Get in touch-amico.png" alt="">
+    <div class="hhh">
+<h4>
+    Do not worry, we will receive all your messages
+</h4>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, nihil. Non laboriosam recu</p>
+</div>
+</div>
+
+
+
+
+    
+    <div class="alert">
+        <h1>do you continue </h1>
+    <button id="ok">ok</button>
+    <button id="cancel">cancel</button>
+    </div>
+    
+    
+    
+    
+    
+        <script src="grud.js"></script>
+</body>
+</html>
